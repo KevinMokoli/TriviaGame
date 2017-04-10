@@ -1,0 +1,138 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    background-color: darkgrey;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../images/init-BG.jpg");
+}
+h1 {
+    float: right;
+    font-family: "Roboto", serif;
+    font-size: 60px;
+    margin-top: 5%;
+    margin-right: 10%;
+    padding: 0;
+    position: relative;
+    z-index: 15;
+    color: white;
+
+}
+section {
+	color: White;
+	padding: 4%;
+	margin: 0 7% 3% 7%;
+	position: relative;
+    top: -18px;
+    line-height: 35px;
+    clear: both;
+}
+.sectionBG {
+    background-color: Black;
+    opacity: .50;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#qText {
+    position: relative;
+}
+.answer {
+	cursor: pointer;
+	margin: 5px;
+}
+#result {
+	position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: Black;
+    color: white;
+    padding: 8%;
+    box-sizing: border-box;
+    font-size: 30px;
+    line-height: 42px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#result.correctResult {
+    background-image: url("../images/check-mark.png");
+     background-size: 250px 250px;
+}
+#result.wrongResult {
+    background-image: url("../images/red-x.png");
+     background-size: 230px 230px;
+}
+#result.timesUp {
+    background-image: url("../images/clock.png");
+     background-size: 230px 230px;
+}
+#result.gameOverText {
+    display: block;
+    font-size: smaller;
+    position: absolute;
+    bottom: 30px;
+    width: 85%;
+}
+button #newGame {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+.scoreboard {
+    float: left;
+    margin-left: 30px;
+    margin: 5%;
+    background-color: White;
+    width: 20%;
+    padding: 15px 6px;
+    height: 52px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#score {
+    font-size: small;
+    padding-top: 15px;
+}
+#choices {
+    display: none;
+}
+#choices ol {
+    position: relative;
+}
+button {
+    display: block;
+    margin: auto;
+    padding: 2%;
+    font-size: 48px;
+    font-family: "Roboto", serif;
+    margin-top: 4%;
+    background-color: black;
+    border-color: White;
+    border-radius: 7px;
+    color: white;
+}
+/* responsive styles! */
+@media screen and (max-width: 750px) {
+    #timer {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    section {
+        top: 0;
+    }
+}
+@media screen and (max-width: 550px) {
+    #score {
+        clear: both;
+    }
+    .scoreboard {
+        width: 35%;
+    }
+}
