@@ -8,7 +8,7 @@ var questionsLibrary = [
 	{
 	 	question: "Who makes it, has no need of it. Who buys it, has no use for it. Who uses it can neither see nor feel it. What is it?",
 	 	answers: ["A Coffin", "A Condom", "A Card", "A Gallon of Distilled Water"],
-	 	correctAnswer: 1,
+	 	correctAnswer: 0,
 	 	image: "assets/images/questionImages/001.jpg"
 	},
 	{
@@ -118,12 +118,6 @@ var questionsLibrary = [
 	 	answers: ["Bat Eyes", "Doors", "Window", "Nothing"],
 	 	correctAnswer: 2,
 	 	image: "assets/images/questionImages/019.jpg"
-	},
-	{
-	 	question: "Who served the Freys pies made of their dead relatives?",
-	 	answers: ["Wyman Manderly", "Roose Bolton", "Maege Mormont", "Littlefinger"],
-	 	correctAnswer: 0,
-	 	image: "assets/images/questionImages/020.jpg"
 	},
 	{
 	 	question: "What can you catch but not throw?",
